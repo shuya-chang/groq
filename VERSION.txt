@@ -1,0 +1,8 @@
+v1.0.0 | 2026-10-27
+- 以既有 groqtest.py 建立 Streamlit + Groq 聊天介面。
+- 正確標示 OpenAI GPT-OSS 120B 模型。
+- 支援側邊欄金鑰、GROQ_API_KEY 環境變數及 Streamlit Secrets。
+- 未設定金鑰時顯示提示，不會在啟動時崩潰。
+- 新增連線、驗證及額度錯誤提示；失敗請求不寫入對話歷史。
+- 限制傳送最近十輪歷史，新增等待提示及空白輸入處理。
+- 新增 requirements.txt、.gitignore 與 README.md 部署說明。
